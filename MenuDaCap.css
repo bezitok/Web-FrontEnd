@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.menutren{
+	width: 100%;
+	height: 40px;
+	border: 1px solid grey;
+	line-height: 40px;
+
+}
+.menutren > ul{
+	display: flex;
+	list-style: none;
+}
+.menutren ul > li > a{
+	text-decoration: none;
+}
+.motmenu{
+	position: relative;
+	height: 40px;
+	background-color: white;
+	line-height: 40px;
+	
+
+}
+.motmenu .layer1{
+	color: grey;
+	padding: 10px 22px;
+	text-decoration: none;
+}
+.motmenu:hover .layer1{
+	color: grey;
+	background-color: #282923;
+}
+.motmenu:hover .layer1{}
+.motmenu .layer2{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.4s;
+	border: 1px solid #26CDF7;
+	width: 200px;
+	background-color: grey;
+}
+.motmenu:hover .layer2{
+	visibility: visible;
+	opacity: 1;
+}
+.motmenu .layer2 ul{
+	list-style: none;
+}
+.motmenu .layer2 ul li{}
+.motmenu .layer2 ul li a{
+	display: block;
+	width: 200px;
+	padding: 5px 10px;
+	font-family: segoe ui light;
+	color: black;
+	border-bottom: 1px solid #26CDF7;
+	box-sizing: border-box;
+}
+.motmenu .layer2 ul li a:hover{
+	background-color: white;
+	transition: 0.8s;
+
+}

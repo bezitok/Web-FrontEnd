@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 
+}
+.header{
+	width: 100%;
+	height: 103px;
+	border: 1px solid black;
+}
+.header .slogan{
+	height: 90px;
+	width: 60%;
+	float:left;
+}
+.header .slogan>h1{
+	text-transform: uppercase;
+	color: #7F0E0D;
+	padding-top: 30px;
+	padding-left: 54px;
+	font-size: 20px;
+}
+.header .slogan>h2{
+	color: #FB6E06;
+	padding-left: 54px;
+	font-size: 15px;
+}
+.header .headerchild1{
+	width: 20%;
+	display: flex;
+	float: left;
+	padding-top: 37px;
+}
+.header .headerchild1 .left>i{
+	color: #7F0E0D;
+	margin-right: 7px;
+	font-size: 20px;
+	padding-top: 7px;
+}
+.header .headerchild1 .right>h4{
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.header .headerchild1 .right>h5{
+	color: grey;
+	font-size: 11px;
+	font-family: segoe ui light;
+}
+.header .headerchild2{
+	width: 10%;
+	float: left;
+	padding-top: 37px;
+	display: flex;
+}
+.header .headerchild2 .left>i{
+    margin-right: 7px;
+    padding-top: 8px;
+    color: #7F0E0D;
+}
+.header .headerchild2 .right>h4{
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.header .headerchild2 .right>h5{
+	color: grey;
+	font-size: 11px;
+	font-family: segoe ui light;
+}
+.menu{
+	width: 100%;
+	height: 37px;
+	background-color: #7F0E0D;
+}
+.menu>ul{
+	display: flex;
+	list-style: none;
+}
+.menu>ul>li>a{
+	text-decoration: none;
+	color: white;
+	line-height: 37px;
+	/* padding-left: 85px; */
+	margin-left: 70px;
+	margin-right: 20px;
+}
+.menu>ul>li>input{
+	height: 27px;
+	margin-top: 3px;
+	width: 450px;
+	margin-left: 15px;
+}
+.menu>ul>li>a:hover{
+	color: #FB6E06;
+}
+.banner>img{
+	width: 100%;
+}
+.content{
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 445px;
+	width: 1165px;
+	border: 1px solid grey;
+}
+.content .productMenu{
+	height: 37px;
+	width: 100%;
+	border-bottom: 3px solid #7F0E0D;
+}
+.content .productMenu .left{
+	height: 100%;
+	width: 160px;
+	float: left;
+}
+.content .productMenu .right {
+	width: 1005px;
+	float: left;
+	margin-top: 8px;
+}
+.content .productMenu .right .contentMenu{
+	width: 1005px;
+}
+.content .right .contentMenu>ul{
+	display: flex;
+	list-style: none;
+}
+.content .right .contentMenu>ul>li>a{
+	text-decoration: none;
+	color: grey;
+	font-family: tahoma;
+	margin-left: 70px;
+}
+.content .right .contentMenu>ul>li>a:hover{
+	color: #FB6E06;
+}
+.product{
+	height: 285px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.product .oneProduct{
+	height: 203px;
+	width: 233px;
+}
+.product .oneProduct .productImage{
+	height: 150px;
+	width: 100%;
+}
+.product .oneProduct .productImage>img{
+	height: 150px;
+	margin-left: 75px;
+}
+.product .oneProduct .productDetail{
+	height: 53px;
+	line-height: 15px;
+}
+.product .oneProduct .productDetail>h5{
+	color: red;
+	font-family: segoe ui light;
+	text-align: center;
+}
+.product .oneProduct .productDetail>p{
+	color: black;
+	font-family: segoe ui light;
+	text-align: center;
+}
+.footer{
+	height: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1165px;
+	margin-top: 15px;
+	background-color: #7F0E0D;
+}
+.footer .footerLeft{
+	width: 85%;
+	padding-top: 15px;
+	padding-left: 10px;
+	float: left;
+	clear: left;
+}
+.footer .footerLeft>h5{
+	color: white;
+	font-size: 15px;
+}
+.footer .footerLeft>p{
+	color: white;
+	font-size: 14px;
+}
+.footer .footerRight{padding-top: 20px;}
+.footer .footerRight>p{
+	color: white;
+}
